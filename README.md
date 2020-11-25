@@ -4,7 +4,7 @@ Design of a ultra LV 6T full CMOS SRAM (1k x 32bit) using open souce memory comp
 # Table Of Contents
 - [Overview](#Overview)
     - [Basics of Working Principle of a SRAM](#Basic-Working-of-SRAM) 
-    - [Suggested Directory Structure](#Suggested-Directory-Structure)
+    - [Need Of ultra low voltage SRAM](#ulv_need)
 - [NGSpice](#NGSpice)
     - [QuickStart Guide](#Quick-Start-Guide)
 - [CppSimLite](#CppSimLite)
@@ -13,4 +13,4 @@ Design of a ultra LV 6T full CMOS SRAM (1k x 32bit) using open souce memory comp
 - [Netgen](#Netgen)
 - [Technology](#Technology)
 - [OpenRAM](#OpenRAM)
-- [Tasks](#Tasks
+- [Tasks](#Tasks)
