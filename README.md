@@ -15,6 +15,6 @@ Design of a ultra LV 6T full CMOS SRAM (1k x 32bit) using open souce memory comp
 - [Technology](#Technology)
 - [OpenRAM](#OpenRAM)
 - [Tasks](#Tasks)
-# project-det
-# Basic-Working-of-SRAM
-# ulv_need
+# Project Details
+# Basic Working of SRAM
+# Need of ULV SRAM
