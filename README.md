@@ -1,8 +1,8 @@
 # SRAM
 Design of a ultra LV 6T full CMOS SRAM (1k x 32bit) using open souce memory compiler OpenRAM using SCIMOS Technology
 # What is SRAM ?
--Static random-access memory is a type of random-access memory that uses latching circuitry to store each bit. SRAM is volatile memory; data is lost when power is removed. The term static differentiates SRAM from DRAM which must be periodically refreshed.
--The data storage cell, i.e., the 1-bit memory cell in static RAM arrays, invariably
+- Static random-access memory is a type of random-access memory that uses latching circuitry to store each bit. SRAM is volatile memory; data is lost when power is removed. The term    static differentiates SRAM from DRAM which must be periodically refreshed.
+- The data storage cell, i.e., the 1-bit memory cell in static RAM arrays, invariably
 consists of a simple latch circuit with two stable operating points (states). Depending on
 the preserved state of the two-inverter latch circuit, the data being held in the memory cel
 will be interpreted either as a logic "0" or as a logic " 1." To access (read and write) the
