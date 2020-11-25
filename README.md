@@ -14,15 +14,10 @@ controlled by the corresponding word line, i.e., the row address selection signa
     - [Project Details](#Project-Details)
     - [Basics of Working Principle of a SRAM](#Basic-Working-of-SRAM) 
     - [Need Of ultra low voltage SRAM](#Need-of-ULV-SRAM)
-- [NGSpice](#NGSpice)
-    - [QuickStart Guide](#Quick-Start-Guide)
-- [CppSimLite](#CppSimLite)
-    - [Sue2](#Sue2)
-- [Magic](#Magic)
-- [Netgen](#Netgen)
-- [Technology](#Technology)
-- [OpenRAM](#OpenRAM)
-- [Tasks](#Tasks)
+- [Schematic Design and Simulation](#Schematic-design-&-Simulation)
+     - [Trasnsistor sizing](#Transistor-Sizing)
+     - [6T schematic and simulation results](#6T-scheamtic-simulation)
+     - [Timing Diagram For Read and Write](#Timing-diagram)
 # Project Details
  - Organisation :Advance VLSI Lab, [Silicon Institute Of Technology,Bhubaneswar]
  - Instructors  :[Prof. Saroj Kumar Rout], [Prof. Santanu Sarangi]
