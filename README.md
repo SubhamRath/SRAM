@@ -1,5 +1,5 @@
 # SRAM
-Design of a ultra LV 6T full CMOS SRAM (1k x 32bit) using open souce memory compiler OpenRAM using SCIMOS Technology
+Design of a ultra LV 6T full CMOS SRAM (1k x 32bit) using open souce memory compiler OpenRAM using SCMOS Technology
 # What is SRAM ?
 - Static random-access memory is a type of random-access memory that uses latching circuitry to store each bit. SRAM is volatile memory; data is lost when power is removed. The term    static differentiates SRAM from DRAM which must be periodically refreshed.
 - The data storage cell, i.e., the 1-bit memory cell in static RAM arrays, invariably
@@ -25,10 +25,28 @@ controlled by the corresponding word line, i.e., the row address selection signa
 - [Tasks](#Tasks)
 # Project Details
  - Organisation :Advance VLSI Lab, [Silicon Institute Of Technology,Bhubaneswar]
- - Instructors  :Prof. Saroj Kumar Rout, Prof. Santanu Sarangi
- - About        :Developement of a Ultra Low Voltage SRAM Using SCIMOS technology and Open source tools like ngSpice, OpenRAM etc.
+ - Instructors  :[Prof. Saroj Kumar Rout], [Prof. Santanu Sarangi]
+ - About        :In this project, we design a novel six-transistor (6T) single-ended static random access memory (SE-SRAM) cell for ultra-low-voltage applications.
+ - Keywords     :Ultra-low-vltage application, SRAM, Memory cells, Memory Compiler
+ - Classification :IC design using Open-Source Tools
+ - Tools used : Spice simulation-[NGSpice], Layout design-[Magic], Memory compiler-[OpenRAM]
+ - Technology used:  MOSIS Scalable CMOS ([SCMOS]):[SCMOS] is a *lambda-based* scalable design rules that can be interfaced to many CMOS fabrication process available at MOSIS. 
+ - Typical MOS parameters:
+  - **NMOS**: tox=7.6nm, nch=1.7e17/cm^3, Vt0=0.49V, un(mobility)=445 cm^2/Vs
+  - **PMOS**: tox=7.6nm, nch=1.7e17/cm^3, Vt0=-0.66V, up(mobility)=151 cm^2/Vs
+  - Vdd=5V, Lmin=0.4um, Wmin=0.6um
 # Basic Working of SRAM
 # Need of ULV SRAM
 
 * * *
 [Silicon Institute Of Technology,Bhubaneswar]: https://www.silicon.ac.in/sitbbsr/
+[Prof. Saroj Kumar Rout]: https://www.linkedin.com/in/sroutk/
+[Prof. Santanu Sarangi]: https://www.linkedin.com/in/santunu-sarangi-b731305b/
+[OpenRAM]:              https://openram.soe.ucsc.edu/
+[OpenRAMgit]:           https://github.com/VLSIDA/OpenRAM 
+[OpenRAMpaper]:         https://ieeexplore.ieee.org/document/7827670/
+[SCMOS]:                https://www.mosis.com/files/scmos/scmos.pdf
+[NGSpice]:              http://ngspice.sourceforge.net
+[NGSpiceMan]:           http://ngspice.sourceforge.net/docs/ngspice-html-manual/manual.xhtml
+[Magic]:                http://opencircuitdesign.com/magic/
+[Netgen]:               http://opencircuitdesign.com/netgen/
