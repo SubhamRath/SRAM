@@ -23,4 +23,4 @@ Design of a ultra LV 6T full CMOS SRAM (1k x 32bit) using open souce memory comp
 # Need of ULV SRAM
 
 * * *
-[Silicon Institute Of Technology,Bhubaneswar] https://www.silicon.ac.in/sitbbsr/
+[Silicon Institute Of Technology,Bhubaneswar]: https://www.silicon.ac.in/sitbbsr/
