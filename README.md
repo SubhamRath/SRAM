@@ -1,6 +1,6 @@
 # SRAM
 Design of a ultra LV 6T full CMOS SRAM (1k x 32bit) using open souce memory compiler OpenRAM using SCIMOS Technology
-- What is SRAM ?
+# What is SRAM ?
 Static random-access memory is a type of random-access memory that uses latching circuitry to store each bit. SRAM is volatile memory; data is lost when power is removed. The term static differentiates SRAM from DRAM which must be periodically refreshed
 
 # Table Of Contents
