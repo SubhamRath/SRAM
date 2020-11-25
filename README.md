@@ -16,7 +16,7 @@ Design of a ultra LV 6T full CMOS SRAM (1k x 32bit) using open souce memory comp
 - [OpenRAM](#OpenRAM)
 - [Tasks](#Tasks)
 # Project Details
- - Organisation :Advance VLSI Lab, Silicon Institute Of Technology,Bhubaneswar
+ - Organisation :Advance VLSI Lab, **Silicon Institute Of Technology,Bhubaneswar**
  - Instructors  :Prof. Saroj Kumar Rout, Prof. Santanu Sarangi
  - About        :Developement of a Ultra Low Voltage SRAM Using SCIMOS technology and Open source tools like ngSpice, OpenRAM etc.
 # Basic Working of SRAM
