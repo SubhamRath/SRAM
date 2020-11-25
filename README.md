@@ -36,6 +36,8 @@ controlled by the corresponding word line, i.e., the row address selection signa
     - **PMOS**: tox=7.6nm, nch=1.7e17/cm^3, Vt0=-0.66V, up(mobility)=151 cm^2/Vs
     - Vdd=5V, Lmin=0.4um, Wmin=0.6um
 # Basic Working of SRAM
+[6t]
+
 # Need of ULV SRAM
 
 * * *
@@ -50,3 +52,4 @@ controlled by the corresponding word line, i.e., the row address selection signa
 [NGSpiceMan]:           http://ngspice.sourceforge.net/docs/ngspice-html-manual/manual.xhtml
 [Magic]:                http://opencircuitdesign.com/magic/
 [Netgen]:               http://opencircuitdesign.com/netgen/
+[6t]: https://user-images.githubusercontent.com/49194847/100247200-158f2280-2f60-11eb-8081-27fadc15dadc.png
