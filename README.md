@@ -11,7 +11,7 @@ controlled by the corresponding word line, i.e., the row address selection signa
 
 # Table Of Contents
 - [Overview](#Overview)
-    - [Project Details](#Projet-Details)
+    - [Project Details](#Project-Details)
     - [Basics of Working Principle of a SRAM](#Basic-Working-of-SRAM) 
     - [Need Of ultra low voltage SRAM](#Need-of-ULV-SRAM)
 - [NGSpice](#NGSpice)
