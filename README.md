@@ -32,9 +32,9 @@ controlled by the corresponding word line, i.e., the row address selection signa
  - Tools used : Spice simulation-[NGSpice], Layout design-[Magic], Memory compiler-[OpenRAM]
  - Technology used:  MOSIS Scalable CMOS ([SCMOS]):[SCMOS] is a *lambda-based* scalable design rules that can be interfaced to many CMOS fabrication process available at MOSIS. 
  - Typical MOS parameters:
-  - **NMOS**: tox=7.6nm, nch=1.7e17/cm^3, Vt0=0.49V, un(mobility)=445 cm^2/Vs
-  - **PMOS**: tox=7.6nm, nch=1.7e17/cm^3, Vt0=-0.66V, up(mobility)=151 cm^2/Vs
-  - Vdd=5V, Lmin=0.4um, Wmin=0.6um
+    - **NMOS**: tox=7.6nm, nch=1.7e17/cm^3, Vt0=0.49V, un(mobility)=445 cm^2/Vs
+    - **PMOS**: tox=7.6nm, nch=1.7e17/cm^3, Vt0=-0.66V, up(mobility)=151 cm^2/Vs
+    - Vdd=5V, Lmin=0.4um, Wmin=0.6um
 # Basic Working of SRAM
 # Need of ULV SRAM
 
