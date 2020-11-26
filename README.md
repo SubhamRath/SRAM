@@ -23,7 +23,7 @@ controlled by the corresponding word line, i.e., the row address selection signa
 # Project Details
  - Organisation :Advance VLSI Lab, [Silicon Institute Of Technology,Bhubaneswar]
  - Instructors  :[Prof. Saroj Kumar Rout], [Prof. Santanu Sarangi]
- - About        :In this project, we design a novel six-transistor (6T) static random access memory (SE-SRAM) cell for standard applications.
+ - About        :In this project, we design a novel six-transistor (6T) static random access memory (6T-SRAM) cell for standard applications.
  - Keywords     :SRAM, Memory cells, Memory Compiler
  - Classification :IC design using Open-Source Tools
  - Tools used : Spice simulation-[NGSpice], Layout design-[Magic], Memory compiler-[OpenRAM]
