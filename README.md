@@ -16,7 +16,9 @@ controlled by the corresponding word line, i.e., the row address selection signa
     - [Need Of ultra low voltage SRAM](#Need-of-ULV-SRAM)
 - [Schematic Design and Simulation](#Schematic-design-&-Simulation)
      - [Trasnsistor sizing](#Transistor-Sizing)
-     - [6T schematic and simulation results](#6T-scheamtic-simulation)
+     - [6T cell](#6T-cell)
+     - [Sense amplifier](#Sense-amplifier)
+     - [Write driver](#Write-driver)
      - [Timing Diagram For Read and Write](#Timing-diagram)
 # Project Details
  - Organisation :Advance VLSI Lab, [Silicon Institute Of Technology,Bhubaneswar]
@@ -43,8 +45,6 @@ controlled by the corresponding word line, i.e., the row address selection signa
 - **Write Operation**
    - Now let's consider initially the circuit was containing 1 and we want to modify the content to 0.Now for the cell containing 1 effective circuit will be like :Now to write 0 into it we forced the bit line to 0 by writing circuitory.But to modify the content V1 should be =0 As we designed circuit such in a way V2 can't go above Vtn so we have to force V1 > Vtn so that M2 will turn off.
     - ![alt text](https://user-images.githubusercontent.com/49194847/100307328-8fa8c100-2fcb-11eb-9d64-b9a1cc66b057.png)
-
-
 # Need of ULV SRAM
 
 * * *
