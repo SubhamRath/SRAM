@@ -17,6 +17,7 @@ controlled by the corresponding word line, i.e., the row address selection signa
 - [Schematic Design and Simulation](#Schematic-design-&-Simulation)
      - [Trasnsistor sizing](#Transistor-Sizing)
      - [6T cell](#6T-cell)
+     - [Pre charge Clock](#Pre-charge-clock)
      - [Sense amplifier](#Sense-amplifier)
      - [Write driver](#Write-driver)
      - [Timing Diagram For Read and Write](#Timing-diagram)
@@ -33,7 +34,7 @@ controlled by the corresponding word line, i.e., the row address selection signa
     - **PMOS**: tox=7.6nm, nch=1.7e17/cm^3, Vt0=-0.66V, up(mobility)=151 cm^2/Vs
     - Vdd=5V, Lmin=0.4um, Wmin=0.6um
 # Basic Working of SRAM
-- **Basic block diagram for a SRAM IP
+- **Basic block diagram for a SRAM IP**
     - The basic SRAM IP constitute of a 6T cell array, Sense amplifier array, Write Driver array, Precharge array, Address decoder and a wordline driver
     - ![alt text](https://user-images.githubusercontent.com/49194847/100307628-56bd1c00-2fcc-11eb-99dc-e23c7501f2f5.png)
 - **6T cell** 
