@@ -31,11 +31,19 @@ controlled by the corresponding word line, i.e., the row address selection signa
     - **PMOS**: tox=7.6nm, nch=1.7e17/cm^3, Vt0=-0.66V, up(mobility)=151 cm^2/Vs
     - Vdd=5V, Lmin=0.4um, Wmin=0.6um
 # Basic Working of SRAM
-- **6T cell**
-        - ![alt text](https://user-images.githubusercontent.com/49194847/100247200-158f2280-2f60-11eb-8081-27fadc15dadc.png)
+- **Basic block diagram for a SRAM IP
+    - The basic SRAM IP constitute of a 6T cell array, Sense amplifier array, Write Driver array, Precharge array, Address decoder and a wordline driver
+    - ![alt text](https://user-images.githubusercontent.com/49194847/100307628-56bd1c00-2fcc-11eb-99dc-e23c7501f2f5.png)
+- **6T cell** 
+     - A low-power SRAM cell may be designed simply by using cross-coupled CMOS inverters
+     - ![alt text](https://user-images.githubusercontent.com/49194847/100307234-54a68d80-2fcb-11eb-9a73-0753d59bd340.png)
 - **Read Operation**
-    -Let's assume initially the 6T cell is containing 0.Then the effective circuit topology will be like as (considering the bit lines are precharged to Vdd) :When M3 and M4 turned on then Vc will discharge thus varying V1 and now the change is voltage of bit line will be sensed by sense amplifier and will be interpreted as 0.
-        - ![alt text](https://user-images.githubusercontent.com/49194847/100306663-e57c6980-2fc9-11eb-8096-2ed351e49d88.png)
+    - Let's assume initially the 6T cell is containing 0.Then the effective circuit topology will be like as the image shown below (considering the bit lines are precharged to Vdd) :When M3 and M4 turned on then Vc will discharge thus varying V1 and now the change is voltage of bit line will be sensed by sense amplifier and will be interpreted as 0.
+     - ![alt text](https://user-images.githubusercontent.com/49194847/100306663-e57c6980-2fc9-11eb-8096-2ed351e49d88.png)
+- **Write Operation**
+   - Now let's consider initially the circuit was containing 1 and we want to modify the content to 0.Now for the cell containing 1 effective circuit will be like :Now to write 0 into it we forced the bit line to 0 by writing circuitory.But to modify the content V1 should be =0 As we designed circuit such in a way V2 can't go above Vtn so we have to force V1 > Vtn so that M2 will turn off.
+    - ![alt text](https://user-images.githubusercontent.com/49194847/100307328-8fa8c100-2fcb-11eb-9d64-b9a1cc66b057.png)
+
 
 # Need of ULV SRAM
 
