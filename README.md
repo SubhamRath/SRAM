@@ -1,5 +1,5 @@
 # SRAM
-Design of a ultra LV 6T full CMOS SRAM (1k x 32bit) using open souce memory compiler OpenRAM using SCMOS Technology
+Design of a 6T full CMOS SRAM (1k x 32bit) using open souce memory compiler OpenRAM using SCMOS Technology
 # What is SRAM ?
 - Static random-access memory is a type of random-access memory that uses latching circuitry to store each bit. SRAM is volatile memory; data is lost when power is removed. The term    static differentiates SRAM from DRAM which must be periodically refreshed.
 - The data storage cell, i.e., the 1-bit memory cell in static RAM arrays, invariably
@@ -13,7 +13,6 @@ controlled by the corresponding word line, i.e., the row address selection signa
 - [Overview](#Overview)
     - [Project Details](#Project-Details)
     - [Basics of Working Principle of a SRAM](#Basic-Working-of-SRAM) 
-    - [Need Of ultra low voltage SRAM](#Need-of-ULV-SRAM)
 - [Schematic Design and Simulation](#Schematic-design-&-Simulation)
      - [Trasnsistor sizing](#Transistor-Sizing)
      - [6T cell](#6T-cell)
@@ -46,7 +45,7 @@ controlled by the corresponding word line, i.e., the row address selection signa
 - **Write Operation**
    - Now let's consider initially the circuit was containing 1 and we want to modify the content to 0.Now for the cell containing 1 effective circuit will be like :Now to write 0 into it we forced the bit line to 0 by writing circuitory.But to modify the content V1 should be =0 As we designed circuit such in a way V2 can't go above Vtn so we have to force V1 > Vtn so that M2 will turn off.
     - ![alt text](https://user-images.githubusercontent.com/49194847/100307328-8fa8c100-2fcb-11eb-9d64-b9a1cc66b057.png)
-# Need of ULV SRAM
+
 
 * * *
 [Silicon Institute Of Technology,Bhubaneswar]: https://www.silicon.ac.in/sitbbsr/
