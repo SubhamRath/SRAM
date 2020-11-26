@@ -32,9 +32,10 @@ controlled by the corresponding word line, i.e., the row address selection signa
     - Vdd=5V, Lmin=0.4um, Wmin=0.6um
 # Basic Working of SRAM
 - **6T cell**
-   - ![alt text](https://user-images.githubusercontent.com/49194847/100247200-158f2280-2f60-11eb-8081-27fadc15dadc.png)
+    ![alt text](https://user-images.githubusercontent.com/49194847/100247200-158f2280-2f60-11eb-8081-27fadc15dadc.png)
 - **Read Operation**
     -Let's assume initially the 6T cell is containing 0.Then the effective circuit topology will be like as (considering the bit lines are precharged to Vdd) :When M3 and M4 turned on then Vc will discharge thus varying V1 and now the change is voltage of bit line will be sensed by sense amplifier and will be interpreted as 0.
+     ![alt text]((https://user-images.githubusercontent.com/49194847/100306663-e57c6980-2fc9-11eb-8096-2ed351e49d88.png)
 
 # Need of ULV SRAM
 
